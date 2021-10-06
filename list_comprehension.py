@@ -1,7 +1,5 @@
 def main():
-    square = []
-    for i in range(1,101):
-        square.append(i**2)
+    square = [i for i in range(1,1000) if i % 4 ==0 and i % 6 == 0 and i % 9 == 0]
 
     print(square)
 

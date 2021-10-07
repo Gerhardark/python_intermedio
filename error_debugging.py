@@ -7,7 +7,7 @@ def main ():
     try:
         num = int(input("ingresa un numero: "))
         print(divisors(num))
-        print("termino del programa")
+        print("termino del programa, !gracias¡")
     except ValueError:
         print("debes ingresar un numero")
 

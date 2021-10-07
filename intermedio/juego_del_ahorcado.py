@@ -1,4 +1,5 @@
 import os
+import random
 
 def main():
     print("hola")

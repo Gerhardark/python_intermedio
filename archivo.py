@@ -6,8 +6,8 @@ def read():
     print(numbers)
 
 def write():
-    names = ["gerhard", "hans", "isabella"]
-    with open("./archivos/names.txt", "w", encoding="utf-8") as n:
+    names = ["gerhard", "hans", "isabellas"]
+    with open("./archivos/names.txt", "a", encoding="utf-8") as n:
         for name in names:
             n.write(name)
             n.write("\n")
